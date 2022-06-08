@@ -1,5 +1,5 @@
 <template>
-  <section></section>
+  <section class="container"></section>
 </template>
 
 <script>
@@ -12,8 +12,6 @@ export default {
 <style scoped lang="scss">
   section {
     // debug
-    height: 100px;
-    width: 100%;
     background-color: #009;
   }
 </style>

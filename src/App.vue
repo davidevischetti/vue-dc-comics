@@ -36,7 +36,15 @@ export default {
   box-sizing: border-box;
 }
 
+
 #app {
- font-family: 'Times New Roman', Times, serif;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+  .container {
+    padding: 0 16%;
+    height: 100px;
+    width: 100%;
+    display: flex;
+  }
 }
 </style>
