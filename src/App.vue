@@ -20,6 +20,7 @@ import MyInfo from './components/MyInfo.vue'
 import MyFooter from './components/MyFooter.vue'
 import MyJumbo from './components/MyJumbo.vue'
 
+
 export default {
   name: 'App',
   components: {
@@ -33,28 +34,29 @@ export default {
 </script>
 
 <style lang="scss">
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+  @import "./assets/style/vars.scss";
 
-
-#app {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
-  .container {
-    padding: 0 16%;
-    display: flex;
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
   }
 
-  .btn {
-    color: #fff;
-    font-size: 12px;
-    font-weight: 600;
-    line-height: 30px;
-    border-radius: 0;
-    cursor: pointer;
+  #app {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    .container {
+      padding: 0 16%;
+      display: flex;
+    }
+
+    .btn {
+      color: #fff;
+      font-size: 12px;
+      font-weight: 600;
+      line-height: 30px;
+      border-radius: 0;
+      cursor: pointer;
+    }
   }
-}
 </style>

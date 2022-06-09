@@ -12,6 +12,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
+    @import "../assets/style/vars.scss";
     #hero {
         background-image: url(../assets/img/jumbotron.jpg);
         height: 320px;
@@ -20,7 +21,7 @@ export default {
         justify-content: flex-start;
 
         div {
-            background-color: #0282f9;
+            background-color: $primary;
             color: #fff;
             font-size: 20px;
             font-weight: 600;

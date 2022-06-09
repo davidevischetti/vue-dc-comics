@@ -74,6 +74,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
+  @import "../assets/style/vars.scss";
   header {
     &.container {
       align-items: center;
@@ -101,12 +102,12 @@ export default {
         line-height: 100px;
         
         &.link:hover {
-          border-bottom: 4px solid #0c7cec;
-          color: #0c7cec;
+          border-bottom: 4px solid $primary;
+          color: $primary;
         }
         
         &.active-link {
-          border-bottom: 4px solid #0c7cec;
+          border-bottom: 4px solid $primary;
         }
       }
 

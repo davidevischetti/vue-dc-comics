@@ -98,6 +98,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
+  @import "../assets/style/vars.scss";
   section {
     background-color: #1c1c1c;
     flex-wrap: wrap;
@@ -117,7 +118,7 @@ export default {
 
     .btn {
       margin: 20px 0;
-      background-color: #0282f9;
+      background-color: $primary;
       border: none;
       padding: 0 40px;
     }
