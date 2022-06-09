@@ -10,6 +10,8 @@
 
     <MyFooter/>
 
+    <FooterSocialLinks/>
+
   </div>
 </template>
 
@@ -19,6 +21,7 @@ import MyContent from './components/MyContent.vue'
 import MyInfo from './components/MyInfo.vue'
 import MyFooter from './components/MyFooter.vue'
 import MyJumbo from './components/MyJumbo.vue'
+import FooterSocialLinks from './components/FooterSocialLinks.vue'
 
 
 export default {
@@ -29,7 +32,8 @@ export default {
     MyInfo,
     MyFooter,
     MyJumbo,
-  }
+    FooterSocialLinks
+}
 }
 </script>
 

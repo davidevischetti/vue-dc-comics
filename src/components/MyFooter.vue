@@ -1,16 +1,17 @@
 <template>
   <footer class="container">
-    <div id="links-container">
 
+    <div id="links-container">
       <div class="links-list" v-for="(list, i) in listLists" :key="i">
         <h4>{{list.title}}</h4>
         <ul>
           <LinksList v-for="(link, i) in list.links" :key="i" :linkText="link.text"/>
         </ul>
-      </div>
-      
+      </div>      
     </div>
+
     <img src="../assets/img/dc-logo-bg.png" alt="">
+
   </footer>
 </template>
 
@@ -18,7 +19,9 @@
 import LinksList from './LinksList.vue';
 export default {
     name: "MyFooter",
-    components: { LinksList },
+    components: { 
+      LinksList
+    },
     data() {
       return {
         listLists : [
