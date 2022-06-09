@@ -27,7 +27,6 @@ export default {
             padding: 0 20px;
             line-height: 40px;
             width: fit-content;
-            margin-left: -10px;
             margin-bottom: -20px;
         }
     }

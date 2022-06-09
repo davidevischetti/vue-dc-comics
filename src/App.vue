@@ -27,7 +27,7 @@ export default {
     MyContent,
     MyInfo,
     MyFooter,
-    MyJumbo
+    MyJumbo,
   }
 }
 </script>
@@ -46,6 +46,15 @@ export default {
   .container {
     padding: 0 16%;
     display: flex;
+  }
+
+  .btn {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 30px;
+    border-radius: 0;
+    cursor: pointer;
   }
 }
 </style>
