@@ -81,7 +81,7 @@ export default {
     }
 
     img {
-      height: 70%;
+      height: 70px;
     }
 
     ul {
@@ -95,7 +95,7 @@ export default {
         text-decoration: none;
         color: #666;
         font-size: 12px;
-        font-weight: 400;
+        font-weight: 600;
         margin: 0 10px;
         height: 100px;
         line-height: 100px;

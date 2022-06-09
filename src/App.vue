@@ -3,6 +3,7 @@
     <MyHeader/>
 
     <main>
+      <MyJumbo/>
       <MyContent/>
       <MyInfo/>
     </main>
@@ -17,6 +18,7 @@ import MyHeader from './components/MyHeader.vue'
 import MyContent from './components/MyContent.vue'
 import MyInfo from './components/MyInfo.vue'
 import MyFooter from './components/MyFooter.vue'
+import MyJumbo from './components/MyJumbo.vue'
 
 export default {
   name: 'App',
@@ -24,7 +26,8 @@ export default {
     MyHeader,
     MyContent,
     MyInfo,
-    MyFooter
+    MyFooter,
+    MyJumbo
   }
 }
 </script>
@@ -38,12 +41,10 @@ export default {
 
 
 #app {
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
   .container {
     padding: 0 16%;
-    height: 100px;
-    width: 100%;
     display: flex;
   }
 }
