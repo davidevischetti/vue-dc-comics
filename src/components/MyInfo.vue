@@ -65,4 +65,11 @@ export default {
       }
     }
   }
+
+    @media screen and (max-width: 992px) { 
+      
+      figcaption {
+        display: none;
+      }
+  }
 </style>

@@ -73,4 +73,12 @@ export default {
         }
         
     }
+
+    @media screen and (max-width: 620px) { 
+      
+    h5 {
+        display: none;
+    }
+
+    }
 </style>

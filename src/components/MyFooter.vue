@@ -159,4 +159,11 @@ export default {
       object-fit: cover;
     }
   }
+
+    @media screen and (max-width: 992px) { 
+    img {
+        display: none;
+    }
+
+  }
 </style>

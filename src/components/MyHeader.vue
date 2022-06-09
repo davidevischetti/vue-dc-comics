@@ -75,6 +75,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
   @import "../assets/style/vars.scss";
+
   header {
     &.container {
       align-items: center;
@@ -111,6 +112,18 @@ export default {
         }
       }
 
+    }
+
+  }
+
+  @media screen and (max-width: 992px) { 
+      
+    li {
+        display: none;
+    }
+
+    img {
+        margin: 5px auto;
     }
 
   }
